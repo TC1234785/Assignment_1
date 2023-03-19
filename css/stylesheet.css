@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    height:100%
+}
+
+header {
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration:none
+
+}
