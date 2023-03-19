@@ -27,6 +27,13 @@ aside>h2 {
     display:grid
 }
 
-.navbar a {
-    text-decoration:none
+.navbar {
+    display:flex;
+    justify-content: end;
+    gap:20px;
 }
+
+.navbar > a {
+    text-decoration:none;
+}
+
