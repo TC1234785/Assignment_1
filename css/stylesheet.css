@@ -4,7 +4,8 @@ html {
 
 body{
     display: flex;
-    height:100%
+    height:100%;
+    margin: 0
 }
 
 header{
@@ -19,6 +20,7 @@ h1 {
 
 aside{
     flex-grow:1;
+    background-color: #FAF4EC;
 }
 
 aside>h2 {
@@ -36,22 +38,46 @@ aside>h2 {
 .navbar {
     display:flex;
     justify-content: end;
-    gap: 0.5em;
+    gap: 1em;
+    padding-right: 1.75em;
 }
 
 .navbar > a {
     text-decoration:none;
 }
 
+button {
+    background-color: black;
+    color:white;
+    border-style:none;
+    padding:.75rem;
+    border-radius: .5rem;
+
+}
+
 .top_buttons {
     display: flex;
     justify-content: space-between;
+    padding: .75em 1em
+}
+
+#note {
+    width: 95%;
+    height: 10rem;
+    border-color: cornflowerblue;
+    border-width: .2em;
+    background-color: #FAF4EC;
+    border-radius: .5em;
+    padding: 1em 1em 0em 1em;
+    margin: 1em
+
 }
 
 .bottom_buttons {
     display: flex;
     justify-content: end;
     gap: 1em;
+    padding: 0em 1em;
 }
 
 footer {
@@ -66,23 +92,16 @@ h3 {
     justify-content:center
 }
 
-.globe{
+.linkedin{
     display:flex;
     justify-content: end;
 }
 
-button {
-    background-color: black;
-    color:white;
-    border-style:none;
-    padding:1rem 1rem;
-    border-radius: .5rem;
-
+img {
+    height: 3rem;
+    width: 3rem;
 }
 
-#note {
-    width:100%;
-    height: 15rem
 
-}
+
 
