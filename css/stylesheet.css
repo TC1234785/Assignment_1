@@ -69,13 +69,12 @@ button {
 }
 
 #note {
-    width: 97%;
+    width: 96%;
     height: 10rem;
     border-color: #4E8CE5;
     border-width: .2em;
     background-color: #FAF4EC;
     border-radius: .5em;
-    padding: 1em 1em 0em 1em;
     margin: 1em
 
 }
@@ -114,5 +113,8 @@ img {
 }
 
 
-
-
+@media screen and (max-width:600px) {
+    body{
+        flex-direction: column;
+    }
+}
