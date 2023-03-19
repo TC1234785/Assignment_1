@@ -3,11 +3,30 @@ body{
     height:100%
 }
 
-header {
-    align-items: center;
+header{
+    display:grid;
+    grid-template-rows:2fr 1fr;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+}
+
+aside{
+    flex-grow:1;
+}
+
+aside>h2 {
+    display:flex;
+    justify-content: center;
+}
+
+.main_container {
+    flex-grow:4;
+    display:grid
 }
 
 .navbar a {
     text-decoration:none
-
 }
